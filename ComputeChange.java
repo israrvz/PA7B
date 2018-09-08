@@ -14,6 +14,7 @@ int numberOfQuartes = cents /25;
 cents = cents % 25;
 // number of dimes
 int numberOfDimes = cents / 10;
+cents = cents % 10;
 // number of nickels
 int numberOfNickels = cents / 5;
 cents = cents % 5;
