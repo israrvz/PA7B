@@ -23,6 +23,44 @@ public class GuessBirthday {
                 "20 21 22 23\n"+
                 "24 25 26 27\n"+
                 "28 29 30 31\n";
-    
+    int day =0;
+
+    System.out.println("is you birthday in Set1??\n ");
+    System.out.println(set1);
+    System.out.println("\nEnter 0 for NO and 1 for YES: ");
+    int answer = input.nextInt();
+    if (answer ==1){
+      day = day +1; //acumulador
+    //  day+=1  otro acumulador
   }
+    System.out.println("is you birthday in Set1??\n ");
+    System.out.println(set2);
+    System.out.println("\nEnter 0 for NO and 1 for YES: ");
+    answer = input.nextInt();
+    if (answer ==1){
+      day = day +2;
+  }
+  System.out.println("is you birthday in Set1??\n ");
+  System.out.println(set3);
+  System.out.println("\nEnter 0 for NO and 1 for YES: ");
+  answer = input.nextInt();
+  if (answer ==1){
+    day = day +4;
+}
+System.out.println("is you birthday in Set1??\n ");
+System.out.println(set4);
+System.out.println("\nEnter 0 for NO and 1 for YES: ");
+answer = input.nextInt();
+if (answer ==1){
+  day = day +8;
+}
+System.out.println("is you birthday in Set1??\n ");
+System.out.println(set5);
+System.out.println("\nEnter 0 for NO and 1 for YES: ");
+answer = input.nextInt();
+if (answer ==1){
+  day = day +16;
+}
+System.out.println("\nYour birthday is"+day);
+}
 }
