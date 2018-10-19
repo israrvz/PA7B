@@ -1,7 +1,7 @@
     import javax.swing.*;
     public class MenuMaterias {
     public static void main (String[] args) {
-   	LeerMaterias ma = new LeerMaterias ();
+   	LeerAlumnos ma = new LeerAlumnos ();
     String opcion;
      int n;
    	do{

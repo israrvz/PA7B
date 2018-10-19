@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public  class LeerMaterias {
+public  class LeerAlumnos {
 private int i,n;
 private String Print,Valor;
 
