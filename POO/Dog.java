@@ -7,15 +7,18 @@ public class Dog{
   Double weight;
 
   //Methods o behaviors
-  public void sit(){
-    System.out.println("Estoy sentado");
-  }
+
+    public String sit(){
+      return "estoy sentado";
+    }
+    //System.out.println("Estoy sentado");
+
 
   public void bark(){
     System.out.println("wauff wauff wauff");
   }
-  public void layDown(){
-    System.out.println("Estoy recostado");
+  public void layDown(String name){
+    System.out.println(name + " Estoy recostado");
   }
   public void eat(){
     System.out.println("I am eating ");

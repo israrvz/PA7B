@@ -15,8 +15,9 @@ public class DogImplement {
 
 
 JOptionPane.showMessageDialog(null,"FID 0 es color: "+fido.color);
-fido.sit();
-fido.layDown();
+System.out.println(fido.sit());
+//fido.sit();
+fido.layDown("my name is fido");
 fido.sleep();
 
 JOptionPane.showMessageDialog(null,"FID 0 es color: "+chilaquil.color);
